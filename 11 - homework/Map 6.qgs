@@ -1,0 +1,1153 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.6.3-Noosa" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>28001</srsid>
+      <srid>5070</srid>
+      <authid>EPSG:5070</authid>
+      <description>NAD83 / Conus Albers</description>
+      <projectionacronym>aea</projectionacronym>
+      <ellipsoidacronym>GRS80</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer expanded="1" id="powerplants_5b22c3c5_429e_43e4_885c_cdda6e89b592" providerKey="delimitedtext" name="powerplants" source="file:///Users/namenames/Desktop/Foundations/foundations_homework/11%20-%20homework/powerplants.csv?type=csv&amp;detectTypes=yes&amp;xField=Longitude&amp;yField=Latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no&amp;subset=%22PrimSource%22%20%20%3D%20'solar'" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" id="cb_2016_us_state_20m_203a8a36_ddf5_4605_892b_15812252b552" providerKey="ogr" name="cb_2016_us_state_20m" source="./cb_2016_us_state_20m/cb_2016_us_state_20m.shp" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>cb_2016_us_state_20m_203a8a36_ddf5_4605_892b_15812252b552</item>
+      <item>powerplants_5b22c3c5_429e_43e4_885c_cdda6e89b592</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings enabled="0" mode="2" type="1" unit="1" intersection-snapping="0" tolerance="12">
+    <individual-layer-settings>
+      <layer-setting enabled="0" id="cb_2016_us_state_20m_203a8a36_ddf5_4605_892b_15812252b552" type="1" units="1" tolerance="12"/>
+      <layer-setting enabled="0" id="powerplants_5b22c3c5_429e_43e4_885c_cdda6e89b592" type="1" units="1" tolerance="12"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>-2916873.89088919200003147</xmin>
+      <ymin>35406.17028791550546885</ymin>
+      <xmax>3436934.93043364770710468</xmax>
+      <ymax>3454104.57414978183805943</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>28001</srsid>
+        <srid>5070</srid>
+        <authid>EPSG:5070</authid>
+        <description>NAD83 / Conus Albers</description>
+        <projectionacronym>aea</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer open="true" name="powerplants" drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="powerplants_5b22c3c5_429e_43e4_885c_cdda6e89b592" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" name="cb_2016_us_state_20m" drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="cb_2016_us_state_20m_203a8a36_ddf5_4605_892b_15812252b552" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer styleCategories="AllStyleCategories" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" type="vector" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" autoRefreshTime="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="1e+08" simplifyAlgorithm="0" maxScale="0" simplifyLocal="1" labelsEnabled="0">
+      <extent>
+        <xmin>-179.17426499999999123</xmin>
+        <ymin>17.9137689999999985</ymin>
+        <xmax>179.77392199999999889</xmax>
+        <ymax>71.35256099999999435</ymax>
+      </extent>
+      <id>cb_2016_us_state_20m_203a8a36_ddf5_4605_892b_15812252b552</id>
+      <datasource>./cb_2016_us_state_20m/cb_2016_us_state_20m.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>cb_2016_us_state_20m</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="0" minz="0" crs="" miny="0" maxx="0" maxy="0" dimensions="2" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" forceraster="0" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol force_rhr="0" type="fill" alpha="1" name="0" clip_to_extent="1">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="182,186,176,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penAlpha="255" height="15" opacity="1" lineSizeScale="3x:0,0,0,0,0,0" width="15" barWidth="5" sizeType="MM" backgroundAlpha="255" maxScaleDenominator="1e+08" enabled="0" scaleBasedVisibility="0" minScaleDenominator="0" diagramOrientation="Up" rotationOffset="270" backgroundColor="#ffffff" scaleDependency="Area" penWidth="0" minimumSize="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0">
+          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute label="" color="#000000" field=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" linePlacementFlags="18" showAll="1" dist="0" obstacle="0" placement="1" priority="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="STATEFP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATENS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AFFGEOID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STUSPS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LSAD">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALAND">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AWATER">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="STATEFP"/>
+        <alias name="" index="1" field="STATENS"/>
+        <alias name="" index="2" field="AFFGEOID"/>
+        <alias name="" index="3" field="GEOID"/>
+        <alias name="" index="4" field="STUSPS"/>
+        <alias name="" index="5" field="NAME"/>
+        <alias name="" index="6" field="LSAD"/>
+        <alias name="" index="7" field="ALAND"/>
+        <alias name="" index="8" field="AWATER"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="STATEFP"/>
+        <default applyOnUpdate="0" expression="" field="STATENS"/>
+        <default applyOnUpdate="0" expression="" field="AFFGEOID"/>
+        <default applyOnUpdate="0" expression="" field="GEOID"/>
+        <default applyOnUpdate="0" expression="" field="STUSPS"/>
+        <default applyOnUpdate="0" expression="" field="NAME"/>
+        <default applyOnUpdate="0" expression="" field="LSAD"/>
+        <default applyOnUpdate="0" expression="" field="ALAND"/>
+        <default applyOnUpdate="0" expression="" field="AWATER"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="STATEFP"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="STATENS"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="AFFGEOID"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="GEOID"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="STUSPS"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="NAME"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="LSAD"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="ALAND"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="AWATER"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="STATEFP"/>
+        <constraint desc="" exp="" field="STATENS"/>
+        <constraint desc="" exp="" field="AFFGEOID"/>
+        <constraint desc="" exp="" field="GEOID"/>
+        <constraint desc="" exp="" field="STUSPS"/>
+        <constraint desc="" exp="" field="NAME"/>
+        <constraint desc="" exp="" field="LSAD"/>
+        <constraint desc="" exp="" field="ALAND"/>
+        <constraint desc="" exp="" field="AWATER"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column type="field" width="-1" name="STATEFP" hidden="0"/>
+          <column type="field" width="-1" name="STATENS" hidden="0"/>
+          <column type="field" width="-1" name="AFFGEOID" hidden="0"/>
+          <column type="field" width="-1" name="GEOID" hidden="0"/>
+          <column type="field" width="-1" name="STUSPS" hidden="0"/>
+          <column type="field" width="-1" name="NAME" hidden="0"/>
+          <column type="field" width="-1" name="LSAD" hidden="0"/>
+          <column type="field" width="-1" name="ALAND" hidden="0"/>
+          <column type="field" width="-1" name="AWATER" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="AFFGEOID"/>
+        <field editable="1" name="ALAND"/>
+        <field editable="1" name="AWATER"/>
+        <field editable="1" name="GEOID"/>
+        <field editable="1" name="LSAD"/>
+        <field editable="1" name="NAME"/>
+        <field editable="1" name="STATEFP"/>
+        <field editable="1" name="STATENS"/>
+        <field editable="1" name="STUSPS"/>
+      </editable>
+      <labelOnTop>
+        <field name="AFFGEOID" labelOnTop="0"/>
+        <field name="ALAND" labelOnTop="0"/>
+        <field name="AWATER" labelOnTop="0"/>
+        <field name="GEOID" labelOnTop="0"/>
+        <field name="LSAD" labelOnTop="0"/>
+        <field name="NAME" labelOnTop="0"/>
+        <field name="STATEFP" labelOnTop="0"/>
+        <field name="STATENS" labelOnTop="0"/>
+        <field name="STUSPS" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>AFFGEOID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" simplifyDrawingTol="1" readOnly="0" geometry="Point" hasScaleBasedVisibilityFlag="0" type="vector" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" simplifyDrawingHints="0" autoRefreshTime="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="1e+08" simplifyAlgorithm="0" maxScale="0" simplifyLocal="1" labelsEnabled="0">
+      <extent>
+        <xmin>-159.58166700000001015</xmin>
+        <ymin>20.76670000000000016</ymin>
+        <xmax>-69.67136399999999696</xmax>
+        <ymax>47.54746600000000001</ymax>
+      </extent>
+      <id>powerplants_5b22c3c5_429e_43e4_885c_cdda6e89b592</id>
+      <datasource>file:./powerplants.csv?type=csv&amp;detectTypes=yes&amp;xField=Longitude&amp;yField=Latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no&amp;subset=%22PrimSource%22%20%20%3D%20'solar'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>powerplants</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="0" minz="0" crs="" miny="0" maxx="0" maxy="0" dimensions="2" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" forceraster="0" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol force_rhr="0" type="marker" alpha="0.398" name="0" clip_to_extent="1">
+            <layer enabled="1" class="SimpleMarker" locked="0" pass="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="230,116,217,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1.4"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penAlpha="255" height="15" opacity="1" lineSizeScale="3x:0,0,0,0,0,0" width="15" barWidth="5" sizeType="MM" backgroundAlpha="255" maxScaleDenominator="1e+08" enabled="0" scaleBasedVisibility="0" minScaleDenominator="0" diagramOrientation="Up" rotationOffset="270" backgroundColor="#ffffff" scaleDependency="Area" penWidth="0" minimumSize="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0">
+          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute label="" color="#000000" field=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" linePlacementFlags="18" showAll="1" dist="0" obstacle="0" placement="0" priority="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="Plant_Code">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Plant_Name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Utility_Na">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Utility_ID">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sector_nam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="City">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="County">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="StateName">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Zip">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Street_Add">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PrimSource">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Install_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Total_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Coal_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NG_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Crude_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Bio_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Hydro_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HydroPS_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Nuclear_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Solar_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Wind_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Geo_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Other_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="source_des">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tech_desc">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Source">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Period">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Latitude">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Longitude">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="Plant_Code"/>
+        <alias name="" index="1" field="Plant_Name"/>
+        <alias name="" index="2" field="Utility_Na"/>
+        <alias name="" index="3" field="Utility_ID"/>
+        <alias name="" index="4" field="sector_nam"/>
+        <alias name="" index="5" field="City"/>
+        <alias name="" index="6" field="County"/>
+        <alias name="" index="7" field="StateName"/>
+        <alias name="" index="8" field="Zip"/>
+        <alias name="" index="9" field="Street_Add"/>
+        <alias name="" index="10" field="PrimSource"/>
+        <alias name="" index="11" field="Install_MW"/>
+        <alias name="" index="12" field="Total_MW"/>
+        <alias name="" index="13" field="Coal_MW"/>
+        <alias name="" index="14" field="NG_MW"/>
+        <alias name="" index="15" field="Crude_MW"/>
+        <alias name="" index="16" field="Bio_MW"/>
+        <alias name="" index="17" field="Hydro_MW"/>
+        <alias name="" index="18" field="HydroPS_MW"/>
+        <alias name="" index="19" field="Nuclear_MW"/>
+        <alias name="" index="20" field="Solar_MW"/>
+        <alias name="" index="21" field="Wind_MW"/>
+        <alias name="" index="22" field="Geo_MW"/>
+        <alias name="" index="23" field="Other_MW"/>
+        <alias name="" index="24" field="source_des"/>
+        <alias name="" index="25" field="tech_desc"/>
+        <alias name="" index="26" field="Source"/>
+        <alias name="" index="27" field="Period"/>
+        <alias name="" index="28" field="Latitude"/>
+        <alias name="" index="29" field="Longitude"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="Plant_Code"/>
+        <default applyOnUpdate="0" expression="" field="Plant_Name"/>
+        <default applyOnUpdate="0" expression="" field="Utility_Na"/>
+        <default applyOnUpdate="0" expression="" field="Utility_ID"/>
+        <default applyOnUpdate="0" expression="" field="sector_nam"/>
+        <default applyOnUpdate="0" expression="" field="City"/>
+        <default applyOnUpdate="0" expression="" field="County"/>
+        <default applyOnUpdate="0" expression="" field="StateName"/>
+        <default applyOnUpdate="0" expression="" field="Zip"/>
+        <default applyOnUpdate="0" expression="" field="Street_Add"/>
+        <default applyOnUpdate="0" expression="" field="PrimSource"/>
+        <default applyOnUpdate="0" expression="" field="Install_MW"/>
+        <default applyOnUpdate="0" expression="" field="Total_MW"/>
+        <default applyOnUpdate="0" expression="" field="Coal_MW"/>
+        <default applyOnUpdate="0" expression="" field="NG_MW"/>
+        <default applyOnUpdate="0" expression="" field="Crude_MW"/>
+        <default applyOnUpdate="0" expression="" field="Bio_MW"/>
+        <default applyOnUpdate="0" expression="" field="Hydro_MW"/>
+        <default applyOnUpdate="0" expression="" field="HydroPS_MW"/>
+        <default applyOnUpdate="0" expression="" field="Nuclear_MW"/>
+        <default applyOnUpdate="0" expression="" field="Solar_MW"/>
+        <default applyOnUpdate="0" expression="" field="Wind_MW"/>
+        <default applyOnUpdate="0" expression="" field="Geo_MW"/>
+        <default applyOnUpdate="0" expression="" field="Other_MW"/>
+        <default applyOnUpdate="0" expression="" field="source_des"/>
+        <default applyOnUpdate="0" expression="" field="tech_desc"/>
+        <default applyOnUpdate="0" expression="" field="Source"/>
+        <default applyOnUpdate="0" expression="" field="Period"/>
+        <default applyOnUpdate="0" expression="" field="Latitude"/>
+        <default applyOnUpdate="0" expression="" field="Longitude"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Plant_Code"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Plant_Name"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Utility_Na"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Utility_ID"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="sector_nam"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="City"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="County"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="StateName"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Zip"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Street_Add"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="PrimSource"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Install_MW"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Total_MW"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Coal_MW"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="NG_MW"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Crude_MW"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Bio_MW"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Hydro_MW"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="HydroPS_MW"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Nuclear_MW"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Solar_MW"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Wind_MW"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Geo_MW"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Other_MW"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="source_des"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="tech_desc"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Source"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Period"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Latitude"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Longitude"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="Plant_Code"/>
+        <constraint desc="" exp="" field="Plant_Name"/>
+        <constraint desc="" exp="" field="Utility_Na"/>
+        <constraint desc="" exp="" field="Utility_ID"/>
+        <constraint desc="" exp="" field="sector_nam"/>
+        <constraint desc="" exp="" field="City"/>
+        <constraint desc="" exp="" field="County"/>
+        <constraint desc="" exp="" field="StateName"/>
+        <constraint desc="" exp="" field="Zip"/>
+        <constraint desc="" exp="" field="Street_Add"/>
+        <constraint desc="" exp="" field="PrimSource"/>
+        <constraint desc="" exp="" field="Install_MW"/>
+        <constraint desc="" exp="" field="Total_MW"/>
+        <constraint desc="" exp="" field="Coal_MW"/>
+        <constraint desc="" exp="" field="NG_MW"/>
+        <constraint desc="" exp="" field="Crude_MW"/>
+        <constraint desc="" exp="" field="Bio_MW"/>
+        <constraint desc="" exp="" field="Hydro_MW"/>
+        <constraint desc="" exp="" field="HydroPS_MW"/>
+        <constraint desc="" exp="" field="Nuclear_MW"/>
+        <constraint desc="" exp="" field="Solar_MW"/>
+        <constraint desc="" exp="" field="Wind_MW"/>
+        <constraint desc="" exp="" field="Geo_MW"/>
+        <constraint desc="" exp="" field="Other_MW"/>
+        <constraint desc="" exp="" field="source_des"/>
+        <constraint desc="" exp="" field="tech_desc"/>
+        <constraint desc="" exp="" field="Source"/>
+        <constraint desc="" exp="" field="Period"/>
+        <constraint desc="" exp="" field="Latitude"/>
+        <constraint desc="" exp="" field="Longitude"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column type="field" width="-1" name="Plant_Code" hidden="0"/>
+          <column type="field" width="-1" name="Plant_Name" hidden="0"/>
+          <column type="field" width="-1" name="Utility_Na" hidden="0"/>
+          <column type="field" width="-1" name="Utility_ID" hidden="0"/>
+          <column type="field" width="-1" name="sector_nam" hidden="0"/>
+          <column type="field" width="-1" name="City" hidden="0"/>
+          <column type="field" width="-1" name="County" hidden="0"/>
+          <column type="field" width="-1" name="StateName" hidden="0"/>
+          <column type="field" width="-1" name="Zip" hidden="0"/>
+          <column type="field" width="-1" name="Street_Add" hidden="0"/>
+          <column type="field" width="-1" name="PrimSource" hidden="0"/>
+          <column type="field" width="-1" name="Install_MW" hidden="0"/>
+          <column type="field" width="-1" name="Total_MW" hidden="0"/>
+          <column type="field" width="-1" name="Coal_MW" hidden="0"/>
+          <column type="field" width="-1" name="NG_MW" hidden="0"/>
+          <column type="field" width="-1" name="Crude_MW" hidden="0"/>
+          <column type="field" width="-1" name="Bio_MW" hidden="0"/>
+          <column type="field" width="-1" name="Hydro_MW" hidden="0"/>
+          <column type="field" width="-1" name="HydroPS_MW" hidden="0"/>
+          <column type="field" width="-1" name="Nuclear_MW" hidden="0"/>
+          <column type="field" width="-1" name="Solar_MW" hidden="0"/>
+          <column type="field" width="-1" name="Wind_MW" hidden="0"/>
+          <column type="field" width="-1" name="Geo_MW" hidden="0"/>
+          <column type="field" width="-1" name="Other_MW" hidden="0"/>
+          <column type="field" width="-1" name="source_des" hidden="0"/>
+          <column type="field" width="-1" name="tech_desc" hidden="0"/>
+          <column type="field" width="-1" name="Source" hidden="0"/>
+          <column type="field" width="-1" name="Period" hidden="0"/>
+          <column type="field" width="-1" name="Latitude" hidden="0"/>
+          <column type="field" width="-1" name="Longitude" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="Bio_MW"/>
+        <field editable="1" name="City"/>
+        <field editable="1" name="Coal_MW"/>
+        <field editable="1" name="County"/>
+        <field editable="1" name="Crude_MW"/>
+        <field editable="1" name="Geo_MW"/>
+        <field editable="1" name="HydroPS_MW"/>
+        <field editable="1" name="Hydro_MW"/>
+        <field editable="1" name="Install_MW"/>
+        <field editable="1" name="Latitude"/>
+        <field editable="1" name="Longitude"/>
+        <field editable="1" name="NG_MW"/>
+        <field editable="1" name="Nuclear_MW"/>
+        <field editable="1" name="Other_MW"/>
+        <field editable="1" name="Period"/>
+        <field editable="1" name="Plant_Code"/>
+        <field editable="1" name="Plant_Name"/>
+        <field editable="1" name="PrimSource"/>
+        <field editable="1" name="Solar_MW"/>
+        <field editable="1" name="Source"/>
+        <field editable="1" name="StateName"/>
+        <field editable="1" name="Street_Add"/>
+        <field editable="1" name="Total_MW"/>
+        <field editable="1" name="Utility_ID"/>
+        <field editable="1" name="Utility_Na"/>
+        <field editable="1" name="Wind_MW"/>
+        <field editable="1" name="Zip"/>
+        <field editable="1" name="sector_nam"/>
+        <field editable="1" name="source_des"/>
+        <field editable="1" name="tech_desc"/>
+      </editable>
+      <labelOnTop>
+        <field name="Bio_MW" labelOnTop="0"/>
+        <field name="City" labelOnTop="0"/>
+        <field name="Coal_MW" labelOnTop="0"/>
+        <field name="County" labelOnTop="0"/>
+        <field name="Crude_MW" labelOnTop="0"/>
+        <field name="Geo_MW" labelOnTop="0"/>
+        <field name="HydroPS_MW" labelOnTop="0"/>
+        <field name="Hydro_MW" labelOnTop="0"/>
+        <field name="Install_MW" labelOnTop="0"/>
+        <field name="Latitude" labelOnTop="0"/>
+        <field name="Longitude" labelOnTop="0"/>
+        <field name="NG_MW" labelOnTop="0"/>
+        <field name="Nuclear_MW" labelOnTop="0"/>
+        <field name="Other_MW" labelOnTop="0"/>
+        <field name="Period" labelOnTop="0"/>
+        <field name="Plant_Code" labelOnTop="0"/>
+        <field name="Plant_Name" labelOnTop="0"/>
+        <field name="PrimSource" labelOnTop="0"/>
+        <field name="Solar_MW" labelOnTop="0"/>
+        <field name="Source" labelOnTop="0"/>
+        <field name="StateName" labelOnTop="0"/>
+        <field name="Street_Add" labelOnTop="0"/>
+        <field name="Total_MW" labelOnTop="0"/>
+        <field name="Utility_ID" labelOnTop="0"/>
+        <field name="Utility_Na" labelOnTop="0"/>
+        <field name="Wind_MW" labelOnTop="0"/>
+        <field name="Zip" labelOnTop="0"/>
+        <field name="sector_nam" labelOnTop="0"/>
+        <field name="source_des" labelOnTop="0"/>
+        <field name="tech_desc" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>Plant_Name</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="cb_2016_us_state_20m_203a8a36_ddf5_4605_892b_15812252b552"/>
+    <layer id="powerplants_5b22c3c5_429e_43e4_885c_cdda6e89b592"/>
+  </layerorder>
+  <properties>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSDefaultMapUnitsPerMm type="double">111319.491</WMSDefaultMapUnitsPerMm>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Delete type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <WMTSPngLayers>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+      <Layer type="QStringList"/>
+    </WMTSPngLayers>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSRootName type="QString"></WMSRootName>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <PositionPrecision>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMTSLayers>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+      <Layer type="QStringList"/>
+    </WMTSLayers>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <Measure>
+      <Ellipsoid type="QString">GRS80</Ellipsoid>
+    </Measure>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <PAL>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <TextFormat type="int">0</TextFormat>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+    </PAL>
+    <WFSLayers type="QStringList"/>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WMTSJpegLayers>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+      <Layer type="QStringList"/>
+    </WMTSJpegLayers>
+    <WMTSGrids>
+      <CRS type="QStringList"/>
+      <Config type="QStringList"/>
+    </WMTSGrids>
+    <WCSLayers type="QStringList"/>
+    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
+    <DefaultStyles>
+      <Line type="QString"></Line>
+      <Fill type="QString"></Fill>
+      <ColorRamp type="QString"></ColorRamp>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <Opacity type="double">1</Opacity>
+    </DefaultStyles>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+    </Gui>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMTSUrl type="QString"></WMTSUrl>
+    <WCSUrl type="QString"></WCSUrl>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>Name Names</author>
+    <creation>2019-06-26T13:45:30</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>

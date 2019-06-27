@@ -1,0 +1,1518 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.6.3-Noosa" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>28001</srsid>
+      <srid>5070</srid>
+      <authid>EPSG:5070</authid>
+      <description>NAD83 / Conus Albers</description>
+      <projectionacronym>aea</projectionacronym>
+      <ellipsoidacronym>GRS80</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer id="powerplants_5b22c3c5_429e_43e4_885c_cdda6e89b592" expanded="0" source="file:///Users/namenames/Desktop/Foundations/foundations_homework/11%20-%20homework/powerplants.csv?type=csv&amp;detectTypes=yes&amp;xField=Longitude&amp;yField=Latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" providerKey="delimitedtext" checked="Qt::Checked" name="powerplants">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="cb_2016_us_state_20m_203a8a36_ddf5_4605_892b_15812252b552" expanded="1" source="./cb_2016_us_state_20m/cb_2016_us_state_20m.shp" providerKey="ogr" checked="Qt::Checked" name="cb_2016_us_state_20m">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>cb_2016_us_state_20m_203a8a36_ddf5_4605_892b_15812252b552</item>
+      <item>powerplants_5b22c3c5_429e_43e4_885c_cdda6e89b592</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings tolerance="12" intersection-snapping="0" unit="1" enabled="0" mode="2" type="1">
+    <individual-layer-settings>
+      <layer-setting units="1" id="cb_2016_us_state_20m_203a8a36_ddf5_4605_892b_15812252b552" tolerance="12" enabled="0" type="1"/>
+      <layer-setting units="1" id="powerplants_5b22c3c5_429e_43e4_885c_cdda6e89b592" tolerance="12" enabled="0" type="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>-2433624.24350428069010377</xmin>
+      <ymin>-68845.73790662852115929</ymin>
+      <xmax>2624311.20126455510035157</xmax>
+      <ymax>3282457.5518621439114213</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>28001</srsid>
+        <srid>5070</srid>
+        <authid>EPSG:5070</authid>
+        <description>NAD83 / Conus Albers</description>
+        <projectionacronym>aea</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked" name="powerplants" open="false">
+      <filegroup hidden="false" open="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="powerplants_5b22c3c5_429e_43e4_885c_cdda6e89b592"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked" name="cb_2016_us_state_20m" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="cb_2016_us_state_20m_203a8a36_ddf5_4605_892b_15812252b552"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" minScale="1e+08" simplifyLocal="1" labelsEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" maxScale="0" refreshOnNotifyMessage="" type="vector" geometry="Polygon" simplifyDrawingTol="1" simplifyMaxScale="1" readOnly="0">
+      <extent>
+        <xmin>-179.17426499999999123</xmin>
+        <ymin>17.9137689999999985</ymin>
+        <xmax>179.77392199999999889</xmax>
+        <ymax>71.35256099999999435</ymax>
+      </extent>
+      <id>cb_2016_us_state_20m_203a8a36_ddf5_4605_892b_15812252b552</id>
+      <datasource>./cb_2016_us_state_20m/cb_2016_us_state_20m.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>cb_2016_us_state_20m</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" dimensions="2" minx="0" minz="0" maxx="0" maxy="0" crs="" miny="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="0" type="fill">
+            <layer locked="0" class="SimpleFill" pass="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="182,186,176,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory rotationOffset="270" minimumSize="0" lineSizeScale="3x:0,0,0,0,0,0" height="15" scaleDependency="Area" scaleBasedVisibility="0" labelPlacementMethod="XHeight" sizeType="MM" enabled="0" width="15" backgroundColor="#ffffff" maxScaleDenominator="1e+08" backgroundAlpha="255" penWidth="0" sizeScale="3x:0,0,0,0,0,0" barWidth="5" penAlpha="255" minScaleDenominator="0" penColor="#000000" lineSizeType="MM" opacity="1" diagramOrientation="Up">
+          <fontProperties style="" description=".SF NS Text,13,-1,5,50,0,0,0,0,0"/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="1" linePlacementFlags="18" dist="0" priority="0" zIndex="0" obstacle="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="STATEFP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATENS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AFFGEOID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STUSPS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LSAD">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALAND">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AWATER">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="STATEFP" index="0" name=""/>
+        <alias field="STATENS" index="1" name=""/>
+        <alias field="AFFGEOID" index="2" name=""/>
+        <alias field="GEOID" index="3" name=""/>
+        <alias field="STUSPS" index="4" name=""/>
+        <alias field="NAME" index="5" name=""/>
+        <alias field="LSAD" index="6" name=""/>
+        <alias field="ALAND" index="7" name=""/>
+        <alias field="AWATER" index="8" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="STATEFP" applyOnUpdate="0" expression=""/>
+        <default field="STATENS" applyOnUpdate="0" expression=""/>
+        <default field="AFFGEOID" applyOnUpdate="0" expression=""/>
+        <default field="GEOID" applyOnUpdate="0" expression=""/>
+        <default field="STUSPS" applyOnUpdate="0" expression=""/>
+        <default field="NAME" applyOnUpdate="0" expression=""/>
+        <default field="LSAD" applyOnUpdate="0" expression=""/>
+        <default field="ALAND" applyOnUpdate="0" expression=""/>
+        <default field="AWATER" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="STATEFP" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="STATENS" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="AFFGEOID" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="GEOID" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="STUSPS" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="NAME" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="LSAD" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="ALAND" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="AWATER" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="STATEFP" exp="" desc=""/>
+        <constraint field="STATENS" exp="" desc=""/>
+        <constraint field="AFFGEOID" exp="" desc=""/>
+        <constraint field="GEOID" exp="" desc=""/>
+        <constraint field="STUSPS" exp="" desc=""/>
+        <constraint field="NAME" exp="" desc=""/>
+        <constraint field="LSAD" exp="" desc=""/>
+        <constraint field="ALAND" exp="" desc=""/>
+        <constraint field="AWATER" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column hidden="0" width="-1" name="STATEFP" type="field"/>
+          <column hidden="0" width="-1" name="STATENS" type="field"/>
+          <column hidden="0" width="-1" name="AFFGEOID" type="field"/>
+          <column hidden="0" width="-1" name="GEOID" type="field"/>
+          <column hidden="0" width="-1" name="STUSPS" type="field"/>
+          <column hidden="0" width="-1" name="NAME" type="field"/>
+          <column hidden="0" width="-1" name="LSAD" type="field"/>
+          <column hidden="0" width="-1" name="ALAND" type="field"/>
+          <column hidden="0" width="-1" name="AWATER" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="AFFGEOID"/>
+        <field editable="1" name="ALAND"/>
+        <field editable="1" name="AWATER"/>
+        <field editable="1" name="GEOID"/>
+        <field editable="1" name="LSAD"/>
+        <field editable="1" name="NAME"/>
+        <field editable="1" name="STATEFP"/>
+        <field editable="1" name="STATENS"/>
+        <field editable="1" name="STUSPS"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="AFFGEOID"/>
+        <field labelOnTop="0" name="ALAND"/>
+        <field labelOnTop="0" name="AWATER"/>
+        <field labelOnTop="0" name="GEOID"/>
+        <field labelOnTop="0" name="LSAD"/>
+        <field labelOnTop="0" name="NAME"/>
+        <field labelOnTop="0" name="STATEFP"/>
+        <field labelOnTop="0" name="STATENS"/>
+        <field labelOnTop="0" name="STUSPS"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>AFFGEOID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" minScale="1e+08" simplifyLocal="1" labelsEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="0" maxScale="0" refreshOnNotifyMessage="" type="vector" geometry="Point" simplifyDrawingTol="1" simplifyMaxScale="1" readOnly="0">
+      <extent>
+        <xmin>-171.71243899999998916</xmin>
+        <ymin>18.97419999999999973</ymin>
+        <xmax>-67.00329999999999586</xmax>
+        <ymax>71.29200000000000159</ymax>
+      </extent>
+      <id>powerplants_5b22c3c5_429e_43e4_885c_cdda6e89b592</id>
+      <datasource>file:./powerplants.csv?type=csv&amp;detectTypes=yes&amp;xField=Longitude&amp;yField=Latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>powerplants</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" dimensions="2" minx="0" minz="0" maxx="0" maxy="0" crs="" miny="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 attr="PrimSource" forceraster="0" symbollevels="0" enableorderby="0" type="categorizedSymbol">
+        <categories>
+          <category symbol="0" render="true" label="biomass" value="biomass"/>
+          <category symbol="1" render="true" label="coal" value="coal"/>
+          <category symbol="2" render="true" label="geothermal" value="geothermal"/>
+          <category symbol="3" render="true" label="hydroelectric" value="hydroelectric"/>
+          <category symbol="4" render="true" label="natural gas" value="natural gas"/>
+          <category symbol="5" render="true" label="nuclear" value="nuclear"/>
+          <category symbol="6" render="true" label="other" value="other"/>
+          <category symbol="7" render="true" label="petroleum" value="petroleum"/>
+          <category symbol="8" render="true" label="pumped storage" value="pumped storage"/>
+          <category symbol="9" render="true" label="solar" value="solar"/>
+          <category symbol="10" render="true" label="wind" value="wind"/>
+          <category symbol="11" render="true" label="" value=""/>
+        </categories>
+        <symbols>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="0" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="188,20,213,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="1" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="214,194,63,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="10" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="86,223,205,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="11" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="149,98,237,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="2" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="209,30,144,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="3" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="73,92,217,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="4" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="100,233,79,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="5" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="213,72,91,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="6" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="213,139,96,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="7" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="175,204,120,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="8" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="59,226,120,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="9" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="89,160,200,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" name="0" type="marker">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="51,160,44,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp name="[source]" type="randomcolors"/>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>0.669</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory rotationOffset="270" minimumSize="0" lineSizeScale="3x:0,0,0,0,0,0" height="15" scaleDependency="Area" scaleBasedVisibility="0" labelPlacementMethod="XHeight" sizeType="MM" enabled="0" width="15" backgroundColor="#ffffff" maxScaleDenominator="1e+08" backgroundAlpha="255" penWidth="0" sizeScale="3x:0,0,0,0,0,0" barWidth="5" penAlpha="255" minScaleDenominator="0" penColor="#000000" lineSizeType="MM" opacity="1" diagramOrientation="Up">
+          <fontProperties style="" description=".SF NS Text,13,-1,5,50,0,0,0,0,0"/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="0" linePlacementFlags="18" dist="0" priority="0" zIndex="0" obstacle="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="Plant_Code">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Plant_Name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Utility_Na">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Utility_ID">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sector_nam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="City">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="County">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="StateName">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Zip">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Street_Add">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PrimSource">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Install_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Total_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Coal_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NG_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Crude_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Bio_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Hydro_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HydroPS_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Nuclear_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Solar_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Wind_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Geo_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Other_MW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="source_des">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tech_desc">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Source">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Period">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Latitude">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Longitude">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="Plant_Code" index="0" name=""/>
+        <alias field="Plant_Name" index="1" name=""/>
+        <alias field="Utility_Na" index="2" name=""/>
+        <alias field="Utility_ID" index="3" name=""/>
+        <alias field="sector_nam" index="4" name=""/>
+        <alias field="City" index="5" name=""/>
+        <alias field="County" index="6" name=""/>
+        <alias field="StateName" index="7" name=""/>
+        <alias field="Zip" index="8" name=""/>
+        <alias field="Street_Add" index="9" name=""/>
+        <alias field="PrimSource" index="10" name=""/>
+        <alias field="Install_MW" index="11" name=""/>
+        <alias field="Total_MW" index="12" name=""/>
+        <alias field="Coal_MW" index="13" name=""/>
+        <alias field="NG_MW" index="14" name=""/>
+        <alias field="Crude_MW" index="15" name=""/>
+        <alias field="Bio_MW" index="16" name=""/>
+        <alias field="Hydro_MW" index="17" name=""/>
+        <alias field="HydroPS_MW" index="18" name=""/>
+        <alias field="Nuclear_MW" index="19" name=""/>
+        <alias field="Solar_MW" index="20" name=""/>
+        <alias field="Wind_MW" index="21" name=""/>
+        <alias field="Geo_MW" index="22" name=""/>
+        <alias field="Other_MW" index="23" name=""/>
+        <alias field="source_des" index="24" name=""/>
+        <alias field="tech_desc" index="25" name=""/>
+        <alias field="Source" index="26" name=""/>
+        <alias field="Period" index="27" name=""/>
+        <alias field="Latitude" index="28" name=""/>
+        <alias field="Longitude" index="29" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="Plant_Code" applyOnUpdate="0" expression=""/>
+        <default field="Plant_Name" applyOnUpdate="0" expression=""/>
+        <default field="Utility_Na" applyOnUpdate="0" expression=""/>
+        <default field="Utility_ID" applyOnUpdate="0" expression=""/>
+        <default field="sector_nam" applyOnUpdate="0" expression=""/>
+        <default field="City" applyOnUpdate="0" expression=""/>
+        <default field="County" applyOnUpdate="0" expression=""/>
+        <default field="StateName" applyOnUpdate="0" expression=""/>
+        <default field="Zip" applyOnUpdate="0" expression=""/>
+        <default field="Street_Add" applyOnUpdate="0" expression=""/>
+        <default field="PrimSource" applyOnUpdate="0" expression=""/>
+        <default field="Install_MW" applyOnUpdate="0" expression=""/>
+        <default field="Total_MW" applyOnUpdate="0" expression=""/>
+        <default field="Coal_MW" applyOnUpdate="0" expression=""/>
+        <default field="NG_MW" applyOnUpdate="0" expression=""/>
+        <default field="Crude_MW" applyOnUpdate="0" expression=""/>
+        <default field="Bio_MW" applyOnUpdate="0" expression=""/>
+        <default field="Hydro_MW" applyOnUpdate="0" expression=""/>
+        <default field="HydroPS_MW" applyOnUpdate="0" expression=""/>
+        <default field="Nuclear_MW" applyOnUpdate="0" expression=""/>
+        <default field="Solar_MW" applyOnUpdate="0" expression=""/>
+        <default field="Wind_MW" applyOnUpdate="0" expression=""/>
+        <default field="Geo_MW" applyOnUpdate="0" expression=""/>
+        <default field="Other_MW" applyOnUpdate="0" expression=""/>
+        <default field="source_des" applyOnUpdate="0" expression=""/>
+        <default field="tech_desc" applyOnUpdate="0" expression=""/>
+        <default field="Source" applyOnUpdate="0" expression=""/>
+        <default field="Period" applyOnUpdate="0" expression=""/>
+        <default field="Latitude" applyOnUpdate="0" expression=""/>
+        <default field="Longitude" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Plant_Code" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Plant_Name" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Utility_Na" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Utility_ID" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="sector_nam" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="City" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="County" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="StateName" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Zip" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Street_Add" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="PrimSource" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Install_MW" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Total_MW" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Coal_MW" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="NG_MW" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Crude_MW" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Bio_MW" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Hydro_MW" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="HydroPS_MW" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Nuclear_MW" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Solar_MW" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Wind_MW" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Geo_MW" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Other_MW" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="source_des" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="tech_desc" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Source" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Period" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Latitude" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Longitude" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="Plant_Code" exp="" desc=""/>
+        <constraint field="Plant_Name" exp="" desc=""/>
+        <constraint field="Utility_Na" exp="" desc=""/>
+        <constraint field="Utility_ID" exp="" desc=""/>
+        <constraint field="sector_nam" exp="" desc=""/>
+        <constraint field="City" exp="" desc=""/>
+        <constraint field="County" exp="" desc=""/>
+        <constraint field="StateName" exp="" desc=""/>
+        <constraint field="Zip" exp="" desc=""/>
+        <constraint field="Street_Add" exp="" desc=""/>
+        <constraint field="PrimSource" exp="" desc=""/>
+        <constraint field="Install_MW" exp="" desc=""/>
+        <constraint field="Total_MW" exp="" desc=""/>
+        <constraint field="Coal_MW" exp="" desc=""/>
+        <constraint field="NG_MW" exp="" desc=""/>
+        <constraint field="Crude_MW" exp="" desc=""/>
+        <constraint field="Bio_MW" exp="" desc=""/>
+        <constraint field="Hydro_MW" exp="" desc=""/>
+        <constraint field="HydroPS_MW" exp="" desc=""/>
+        <constraint field="Nuclear_MW" exp="" desc=""/>
+        <constraint field="Solar_MW" exp="" desc=""/>
+        <constraint field="Wind_MW" exp="" desc=""/>
+        <constraint field="Geo_MW" exp="" desc=""/>
+        <constraint field="Other_MW" exp="" desc=""/>
+        <constraint field="source_des" exp="" desc=""/>
+        <constraint field="tech_desc" exp="" desc=""/>
+        <constraint field="Source" exp="" desc=""/>
+        <constraint field="Period" exp="" desc=""/>
+        <constraint field="Latitude" exp="" desc=""/>
+        <constraint field="Longitude" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column hidden="0" width="-1" name="Plant_Code" type="field"/>
+          <column hidden="0" width="-1" name="Plant_Name" type="field"/>
+          <column hidden="0" width="-1" name="Utility_Na" type="field"/>
+          <column hidden="0" width="-1" name="Utility_ID" type="field"/>
+          <column hidden="0" width="-1" name="sector_nam" type="field"/>
+          <column hidden="0" width="-1" name="City" type="field"/>
+          <column hidden="0" width="-1" name="County" type="field"/>
+          <column hidden="0" width="-1" name="StateName" type="field"/>
+          <column hidden="0" width="-1" name="Zip" type="field"/>
+          <column hidden="0" width="-1" name="Street_Add" type="field"/>
+          <column hidden="0" width="-1" name="PrimSource" type="field"/>
+          <column hidden="0" width="-1" name="Install_MW" type="field"/>
+          <column hidden="0" width="-1" name="Total_MW" type="field"/>
+          <column hidden="0" width="-1" name="Coal_MW" type="field"/>
+          <column hidden="0" width="-1" name="NG_MW" type="field"/>
+          <column hidden="0" width="-1" name="Crude_MW" type="field"/>
+          <column hidden="0" width="-1" name="Bio_MW" type="field"/>
+          <column hidden="0" width="-1" name="Hydro_MW" type="field"/>
+          <column hidden="0" width="-1" name="HydroPS_MW" type="field"/>
+          <column hidden="0" width="-1" name="Nuclear_MW" type="field"/>
+          <column hidden="0" width="-1" name="Solar_MW" type="field"/>
+          <column hidden="0" width="-1" name="Wind_MW" type="field"/>
+          <column hidden="0" width="-1" name="Geo_MW" type="field"/>
+          <column hidden="0" width="-1" name="Other_MW" type="field"/>
+          <column hidden="0" width="-1" name="source_des" type="field"/>
+          <column hidden="0" width="-1" name="tech_desc" type="field"/>
+          <column hidden="0" width="-1" name="Source" type="field"/>
+          <column hidden="0" width="-1" name="Period" type="field"/>
+          <column hidden="0" width="-1" name="Latitude" type="field"/>
+          <column hidden="0" width="-1" name="Longitude" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="Bio_MW"/>
+        <field editable="1" name="City"/>
+        <field editable="1" name="Coal_MW"/>
+        <field editable="1" name="County"/>
+        <field editable="1" name="Crude_MW"/>
+        <field editable="1" name="Geo_MW"/>
+        <field editable="1" name="HydroPS_MW"/>
+        <field editable="1" name="Hydro_MW"/>
+        <field editable="1" name="Install_MW"/>
+        <field editable="1" name="Latitude"/>
+        <field editable="1" name="Longitude"/>
+        <field editable="1" name="NG_MW"/>
+        <field editable="1" name="Nuclear_MW"/>
+        <field editable="1" name="Other_MW"/>
+        <field editable="1" name="Period"/>
+        <field editable="1" name="Plant_Code"/>
+        <field editable="1" name="Plant_Name"/>
+        <field editable="1" name="PrimSource"/>
+        <field editable="1" name="Solar_MW"/>
+        <field editable="1" name="Source"/>
+        <field editable="1" name="StateName"/>
+        <field editable="1" name="Street_Add"/>
+        <field editable="1" name="Total_MW"/>
+        <field editable="1" name="Utility_ID"/>
+        <field editable="1" name="Utility_Na"/>
+        <field editable="1" name="Wind_MW"/>
+        <field editable="1" name="Zip"/>
+        <field editable="1" name="sector_nam"/>
+        <field editable="1" name="source_des"/>
+        <field editable="1" name="tech_desc"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="Bio_MW"/>
+        <field labelOnTop="0" name="City"/>
+        <field labelOnTop="0" name="Coal_MW"/>
+        <field labelOnTop="0" name="County"/>
+        <field labelOnTop="0" name="Crude_MW"/>
+        <field labelOnTop="0" name="Geo_MW"/>
+        <field labelOnTop="0" name="HydroPS_MW"/>
+        <field labelOnTop="0" name="Hydro_MW"/>
+        <field labelOnTop="0" name="Install_MW"/>
+        <field labelOnTop="0" name="Latitude"/>
+        <field labelOnTop="0" name="Longitude"/>
+        <field labelOnTop="0" name="NG_MW"/>
+        <field labelOnTop="0" name="Nuclear_MW"/>
+        <field labelOnTop="0" name="Other_MW"/>
+        <field labelOnTop="0" name="Period"/>
+        <field labelOnTop="0" name="Plant_Code"/>
+        <field labelOnTop="0" name="Plant_Name"/>
+        <field labelOnTop="0" name="PrimSource"/>
+        <field labelOnTop="0" name="Solar_MW"/>
+        <field labelOnTop="0" name="Source"/>
+        <field labelOnTop="0" name="StateName"/>
+        <field labelOnTop="0" name="Street_Add"/>
+        <field labelOnTop="0" name="Total_MW"/>
+        <field labelOnTop="0" name="Utility_ID"/>
+        <field labelOnTop="0" name="Utility_Na"/>
+        <field labelOnTop="0" name="Wind_MW"/>
+        <field labelOnTop="0" name="Zip"/>
+        <field labelOnTop="0" name="sector_nam"/>
+        <field labelOnTop="0" name="source_des"/>
+        <field labelOnTop="0" name="tech_desc"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>Plant_Name</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="cb_2016_us_state_20m_203a8a36_ddf5_4605_892b_15812252b552"/>
+    <layer id="powerplants_5b22c3c5_429e_43e4_885c_cdda6e89b592"/>
+  </layerorder>
+  <properties>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <PAL>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <TextFormat type="int">0</TextFormat>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <SearchMethod type="int">0</SearchMethod>
+    </PAL>
+    <DefaultStyles>
+      <Opacity type="double">1</Opacity>
+      <RandomColors type="bool">true</RandomColors>
+      <ColorRamp type="QString"></ColorRamp>
+      <Marker type="QString"></Marker>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+    </DefaultStyles>
+    <WMTSUrl type="QString"></WMTSUrl>
+    <WFSUrl type="QString"></WFSUrl>
+    <WFSTLayers>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMTSLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSLayers>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <WMTSJpegLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSJpegLayers>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <Measure>
+      <Ellipsoid type="QString">GRS80</Ellipsoid>
+    </Measure>
+    <WMSDefaultMapUnitsPerMm type="double">111319.491</WMSDefaultMapUnitsPerMm>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WFSLayers type="QStringList"/>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSRootName type="QString"></WMSRootName>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMTSPngLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSPngLayers>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+    </Gui>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WCSLayers type="QStringList"/>
+    <WMTSGrids>
+      <Config type="QStringList"/>
+      <CRS type="QStringList"/>
+    </WMTSGrids>
+    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>Name Names</author>
+    <creation>2019-06-26T13:45:30</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>
